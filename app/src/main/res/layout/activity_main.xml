@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    >
+    <TextView
+        android:id="@+id/tv_welcome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="Bienvenido a NoticeApp"
+        android:textSize="24sp"
+        android:layout_marginTop="24dp"/>
+
+    <TextView
+        android:id="@+id/tv_instruction"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:text="Presiona para cargar noticias, si no está conectado a la red se mostrará el contenido descargado."
+        />
+
+    <Button
+        android:id="@+id/btn_gotonotice"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_instruction"
+        android:layout_centerHorizontal="true"
+        android:text="ir a noticias"
+        android:background="@color/colorPrimary"
+        android:layout_margin="54dp"
+        android:textColor="@color/colorWhite"/>
+
+
+
+</RelativeLayout>
