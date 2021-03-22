@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">NoticeApp</string>
+    <string name="info_msg">Presiona para cargar noticias, si no está conectado a la red se mostrará el contenido descargado.</string>
+    <string name="welcome_msg">Bienvenido a NoticeApp</string>
+    <string name="go_to_notice_btn">ir a noticias</string>
+    <string name="todo">TODO</string>
 </resources>
